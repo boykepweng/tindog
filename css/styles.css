@@ -1,0 +1,174 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Title Section */
+#title {
+  background-color: #ff4c68;
+}
+
+.title-heading {
+  text-align: left;
+  color: white;
+}
+
+/* Navigation Bar */
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Images */
+.iphone {
+  width: 60%;
+  transform: rotate(25deg);
+  margin-top: 10px;
+  position: absolute;
+  right: 25%;
+}
+
+/* Features Section */
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.features-heading {
+  font-size: 1.5rem;
+}
+
+.icon {
+  color: #ef7182;
+  margin-bottom: 1rem;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+.features-column {
+  padding: 40px;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ef7182;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef7182;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-heading {
+  font-size: 1.5rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+
+/* Call for Attention */
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  color: white;
+}
+
+.cta-intro {
+  padding-bottom: 20px;
+}
+
+.download-button2 {
+  margin: 20px;
+}
+
+/* Footer */
+#footer {
+  background-color: #fff;
+  padding: 7% 15%;
+}
+
+.site-icon {
+  margin: 20px 10px;
+}
+
+/* Media Query */
+@media (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+@media (min-width: 1800px) {
+  .iphone {
+    position: static;
+  }
+}
